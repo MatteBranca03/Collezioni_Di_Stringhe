@@ -25,7 +25,7 @@ namespace Method
             }
             if (m < 0)
                 return false;
-            else
+            else 
                 return true;
         }
     }
