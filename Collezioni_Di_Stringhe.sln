@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collezioni", "Collezioni\Collezioni.csproj", "{C71C6C80-7BB2-4D07-97F1-113DA2036418}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B} = {B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method", "Metodi\Method.csproj", "{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C71C6C80-7BB2-4D07-97F1-113DA2036418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71C6C80-7BB2-4D07-97F1-113DA2036418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71C6C80-7BB2-4D07-97F1-113DA2036418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71C6C80-7BB2-4D07-97F1-113DA2036418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91CF5BC-EB07-4BBC-80BD-17E2E6DA608B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7654F502-C281-488C-A0AB-E587C5D1845F}
+	EndGlobalSection
+EndGlobal
