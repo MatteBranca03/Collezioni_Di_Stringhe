@@ -10,13 +10,13 @@ namespace Collezioni
             string a = Console.ReadLine();
             Console.Write("Inserisci una stringa ");
             string b = Console.ReadLine();
-            bool u = MetodiCollezioni.Uguali(a, b);
-            Console.Write("Le stringhe sono uguali? " + u);
+            bool sUguali = MetodiCollezioni.Uguali(a, b);
+            Console.Write("Le stringhe sono uguali " + sUguali);
             Console.WriteLine();
             Console.Write("Inserisci una stringa ");
             string c = Console.ReadLine();
-            bool m = MetodiCollezioni.ContainsDoubleChar(c);
-            Console.Write("La stringa contiene lettere maiuscole? " + m) ;
+            bool sMaiuscole = MetodiCollezioni.ContainsDoubleChar(c);
+            Console.Write("La stringa contiene lettere maiuscole " + sMaiuscole) ;
         }
     }
 }
