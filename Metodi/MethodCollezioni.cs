@@ -16,7 +16,7 @@ namespace Method
             }
         }
         public static bool ContainsDoubleChar(string c)
-        {
+        { 
             int m = 0;
             for (int i = 0; i < c.Length; i++)
             {
